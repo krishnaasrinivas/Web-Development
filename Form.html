@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Survey Form</title>
+
+    </head>
+    <body style="background-color: #fac4dde8;">
+        <header>
+            <h1 style="color :darkcyan; text-align:center">Survey Form<h1>
+        </header>
+        <main>
+            <form>
+            <div><h4>NOTE:The form is to be filled within 21 days</h4></div>
+            <div>
+                <p><label>First Name</label>
+                <input type="text" value="Enter first name" required />
+            </p>
+            <p>
+                <label> Last Name</label>
+                <input type = "text" value="Enter last name" required />
+            </p>
+            <p>
+                <label>Phone Number</label>
+                <input type="tel"  minlength="10" maxlength="10" value = "Enter Phone Number" required />
+
+            </p>
+            <p>
+                <label>Date Of Birth</label>
+                <input type = "date" value="Enter Date of Birth" required />
+            </p>
+            <p>
+                <label>Email Address</label>
+                <input type = "email"   value="Enter email" required />
+            </p>
+            </div>
+            <div>
+                <h4>Gender</h4>
+                <p>
+                    <label></label>
+                    <input name = "btn" type="radio" value="Male" /> Male
+                    <br>
+                    <input name = "btn"  type = "radio" value = "Female" /> Female<br>
+                    <input name = "btn"  type = "radio"  /> Other <br>
+                </p>
+            </div>
+            <div>
+                <p><h4>Intrests</h4></p>
+                
+                <p><h5>
+                    Check all that apply
+                </h5></p>
+                <input name = "button" type = "checkbox" value = "Cooking or baking." /> Cooking or baking. <br>
+                <input name = "button" type = "checkbox" value = "Playing an instrument." /> Playing an instrument. <br>
+                <input name = "button" type = "checkbox" value = "photography." /> photography. <br>
+                <input name = "button" type = "checkbox" value = "Build electronics." /> Build electronics. <br>
+                <input name = "button" type = "checkbox" value = "Build websites." /> Build websites. <br>
+                <input name = "button" type = "checkbox" value = "Reading." /> Reading. <br>
+                <input name = "button" type = "checkbox" value = "Community service." /> Community service. <br>
+                <input name = "button" type = "checkbox" value = "Artistic activities " /> Artistic activities  <br>
+                <br>
+
+            </div>
+            <div>
+                <button type="submit" id= "submit" style =" margin-left: 45%;">
+                    Submit The Form </button>
+            </div>
+        </form>
+
+        </main>
+
+    </body>
+    <footer>
+        <h3 style="text-align: center; color: darkcyan;">Thank You for filling the form &#128512;</h3> 
+    </footer>
+</html>
