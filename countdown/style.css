@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap');
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    background-size: cover;
+    background-image: url(BDAY2.jpg);
+    height: 130vh;
+    background-position: center center;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    font-size: 3rem;
+    margin-top: -11rem;
+}
+.countdown-cont {
+    display: flex;
+}
+.big-text {
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem 2rem; 
+}
+.count {
+    text-align: center;
+}
+.count span{
+    font-size: 1.5rem;
+}
