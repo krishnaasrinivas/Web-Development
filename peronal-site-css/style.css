@@ -1,0 +1,118 @@
+body{
+    text-align: center;
+    
+    font-family: 'Merriweather', serif;
+}
+hr{
+    border-style: dotted none none none;
+    border-width: 8px;
+    height: 0px;
+    width: 8%;
+    color: #d9f7f7;
+}
+.top{
+    background-color: #CEE5D0;
+}
+h1{
+   
+    margin: 0 auto;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 345%;
+    color: #66BFBF;/* font size isnt dynamic hence we can use % instead of px to make it dynamic. NOTE: 16px = 100%*/
+}
+h2{
+    color: #66BFBF;
+}
+h3{
+    color: #11999E;
+}
+a{
+    color: #11999E;
+}
+.skill-row{
+    width : 50%;
+    margin:  100px auto 100px auto ;/*centers the elems */
+    text-align: left;
+    line-height: 2;
+}
+.underline{
+    font-weight: normal;
+    line-height: 2;
+}
+.python{
+    float: left;
+    padding: 30px;
+    width : 20%;
+    height: 20%;
+}
+.me{
+    width : 25%;
+    height : 25%;
+}
+.web_development{
+    float: right;
+    padding: 30px;
+    width : 20%;
+    height: 20%;
+}
+.top{
+    position: relative;
+    padding-top: 100px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 15%;
+}
+.top_cloud{
+    position: absolute;
+    right: 300px;
+    top:50px
+}
+.bottom-container{
+    padding: 10px;
+    background-color: #66BFBF;
+}
+.copyright{
+    color: rgb(255, 250, 250);
+}
+.btn {
+    background: #1865E2;
+    background-image: -webkit-linear-gradient(top, #1865E2, #11999E);
+    background-image: -moz-linear-gradient(top, #1865E2, #11999E);
+    background-image: -ms-linear-gradient(top, #1865E2, #11999E);
+    background-image: -o-linear-gradient(top, #1865E2, #11999E);
+    background-image: -webkit-gradient(to bottom, #1865E2, #11999E);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: -24px 33px 60px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    text-decoration: none;
+ }
